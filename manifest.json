@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Domainr Pro",
+    "version": "0.01",
+    "description": "Domainr Pro: with TLD pricing from tld-list.com",
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+        {"matches": ["https://*.domainr.com/*"],"js": ["site/domainr.js"],"css": ["site/domainr.css"],"run_at":"document_end","all_frames": false}
+    ],
+    "background": { "service_worker": "background.js" }
+}

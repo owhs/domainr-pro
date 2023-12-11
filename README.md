@@ -5,3 +5,5 @@
 - Minimal interface
 - Sponsored/buy links removed
 - (Cached) Pricing from tld-list.com auto retried - on domain selection
+
+![Screenshot](/.github/screenshot.png)
